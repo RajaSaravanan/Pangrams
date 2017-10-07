@@ -1,5 +1,3 @@
-//: Playground - noun: a place where people can play
-
 import Cocoa
 func isPangram(_ str : String) -> String{
     let pangram = "abcdefghijklmnopqrstuvwxyz"
@@ -18,4 +16,3 @@ func isPangram(_ str : String) -> String{
     return "Not Pangram"
 }
 _ = isPangram("")
-
